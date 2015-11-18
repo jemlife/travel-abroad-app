@@ -1,9 +1,8 @@
 
-<h1>Places#index</h1>
 
-<div style='width: 800px;'>
-  <div id="map" style='width: 800px; height: 400px;'></div>
-</div>
+
+  <div id="map"></div>
+	
 
 <script type="text/javascript">
 handler = Gmaps.build('Google');
@@ -13,4 +12,3 @@ handler.buildMap({ provider: {}, internal: {id: 'map'}}, function(){
   handler.fitMapToBounds();
 });
 </script>
-<p>Find me in app/views/places/index.html.erb</p>
